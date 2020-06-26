@@ -1,0 +1,58 @@
+/* SGD section */
+
+.sdgmain {
+  display: flex;
+  justify-content: center;
+  background: url(img/sdgbg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.sgdsection {
+  width: 100%;
+  height: 100%;
+}
+
+.sgdimg img {
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+
+.sgdrot {
+  transform: rotate(360deg);
+}
+
+.sgd2div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sdg2title {
+  color: #fff;
+  padding: 1rem;
+}
+
+.sdg2title h1 {
+  font-weight: 700;
+  text-shadow: 5px 5px 5px #333333;
+}
+
+.sdgbox {
+  background-color: #eb1c2d;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.sdgbox h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sdgbox h3 {
+  padding-top: 0.5rem;
+  font-weight: 500;
+}
+
+.sdgbox hr {
+  width: 100%;
+  border: 1px solid #fff;
+}
