@@ -34,14 +34,28 @@ $(document).ready(function () {
     .addTo(controller);
 });
 
-gsap
-  .timeline({
-    scrollTrigger: {
-      trigger: ".footer",
-      start: "center center",
-      end: "bottom top",
-      scrub: true,
-      pin: true,
-    },
-  })
-  .from(".newsletters", { x: innerWidth * 2 });
+// gsap
+//   .timeline({
+//     scrollTrigger: {
+//       trigger: ".footer",
+//       start: "center center",
+//       end: "bottom top",
+//       scrub: true,
+//       pin: true,
+//     },
+//   })
+//   .from(".newsletters", { x: innerWidth * 2 });
+
+
+$(".links a").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    const hash = this.hash;
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800
+    );
+  }
+});

@@ -33,6 +33,21 @@ a:hover {
   padding: 50px 0;
 }
 
+.section-gap-bottom{
+  padding: 0 0 50px 0;
+}
+
+.main-photo{
+  position: absolute;
+  left: 7.5%;
+}
+
+.main-photo img{
+  width: 100%;
+
+
+}
+
 /* UTILITY CLASSES - section head */
 
 .section-head {
@@ -64,7 +79,7 @@ hr {
   top: 0;
   left: 0;
   max-height: 100px;
-  background: none;
+  background: #fff;
 }
 
 #logo {
@@ -114,7 +129,7 @@ hr {
 .links ul li {
   list-style: none;
   background: #303030;
-  color: #303030;
+  color: #fff;
   padding: 0.4rem;
   text-align: left;
   font-size: 14.4px;
@@ -222,6 +237,14 @@ canvas {
   width: 100%;
 }
 
+.singlechance a{
+  color: inherit;
+}
+
+.singlechance a:hover{
+  color: inherit;
+}
+
 /* Possible */
 .possiblesection {
   width: 100vw;
@@ -279,7 +302,11 @@ canvas {
 }
 
 .posmore a {
-  color: cadetblue;
+  color: #303030;
+}
+
+.posmore a:hover{
+  color: cadetblue ;
 }
 
 .posmore p {
@@ -316,10 +343,22 @@ canvas {
   filter: grayscale(0);
 }
 
+.blog p{
+  margin-top: 1rem;
+}
+
+.blog p, h2{
+  margin-left: 1rem;
+}
+
+.blog h2{
+  padding-bottom: 1rem;
+}
+
 /* About section */
 
 .about-us {
-  background: cadetblue;
+  background: #012060 ;
 }
 
 .abtimg h2 {
@@ -345,7 +384,7 @@ canvas {
 .abtcont .abthead h4 {
   margin: 1.5rem 0 0 0;
   font-weight: 700;
-  color: #418fde;
+  color: #012060;
 }
 .abtcont .abthead p {
   color: #666;
@@ -400,9 +439,96 @@ canvas {
 /* footer */
 
 .footer {
-  background: #fff;
-  height: 100vh;
+  background: #012060;
+  color: #fff;
+  padding:5rem 0 0 0;
 }
+
+.footer>.container{
+
+  bottom: 0;
+}
+
+.footer .footer-logo{
+  border-right:  1px solid #fff;
+}
+
+.footer .footer-logo img{
+  width: 60%;
+}
+
+.footer .footer-logo p{
+  margin: 1rem 0;
+}
+
+.footer .footer-logo .logo-loc {
+  opacity: 0.6
+  
+}
+
+.footer .footer-links{
+  padding-left: 4rem;
+}
+
+.footer .footer-links h4{
+  color: #fcc300;
+}
+
+.footer .footer-links ul{
+  margin: 1rem 0;
+
+}
+
+.footer .footer-links ul li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer .footer-links ul li a{
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footer .footer-links ul li a:hover{
+  opacity: 1;
+  
+}
+
+.footer .footer-newsletters h4{
+  color: #fcc300;
+}
+
+.footer .footer-newsletters form{
+  margin: 0.8rem 0;
+}
+
+.footer .footer-newsletters p {
+  opacity: 0.6;
+}
+
+.footer .footer-newsletters form input{
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.footer .footer-newsletters form input:last-child{
+  background-color: #fcc300;
+  color: #fff;
+}
+
+.footer-foot{
+  margin-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+}
+
+.footer .footer-foot .social-links{
+  text-align: right;
+}
+
+
+
 
 .newsletters {
   width: 100%;
@@ -479,3 +605,26 @@ p {
   color: #303030;
   padding: 0.3rem;
 }
+
+
+/* CHANCES guidepage*/
+
+.chances-all{
+  margin-top: 4rem;
+}
+
+.schange img{
+  width: 100%;
+}
+
+.schange{
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fcc300;
+}
+
+a{
+  color: inherit;
+}
+
+a:hover{color: inherit;}
