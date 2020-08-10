@@ -59,3 +59,29 @@ $(".links a").on("click", function (event) {
     );
   }
 });
+
+
+$(".bbtn a").on("click", function (event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    const hash = this.hash;
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top,
+      },
+      800
+    );
+  }
+});
+
+$(document).ready(function () {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: ".possiblesection",
+    triggerHook: 0.5,
+  })
+    .setClassToggle(".bbtn", "bbtnAnim")
+    .addTo(controller);
+});
+

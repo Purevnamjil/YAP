@@ -1,0 +1,162 @@
+@media only screen and (max-width: 600px){
+
+    .section-gap{
+        padding: 1rem;
+    }
+
+
+    #navbar{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        background-color: #fff;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+    }
+
+    .home{
+        height: 50vh!important;
+        padding-top: 4rem;
+    }
+    .banner>div{
+        height: auto;
+    }
+
+    .banner-arrow{
+        display: none;
+    }
+
+    .possiblesection{
+        padding: 0;   
+    }
+
+    .postitle h2{
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .posmore p{
+        font-size: 1.25rem!important;
+        padding-bottom: 0!important;
+    }
+
+
+    .sgdimg img{
+        padding: 1rem 0;
+    }
+
+    .sdg2title h1{
+        display: none;
+    }
+    
+    .sdgbox h1{
+        font-size: 1.5rem;
+    }
+
+    .sdgbox h3{
+        font-size: 1.25rem;
+    }
+
+    .sdgbox h5{
+        font-size: 1rem;
+    }
+
+    .abtimg{
+        padding: 2rem 0 0 ;
+    }
+
+
+    .abtimg h2{
+        font-size: 2rem;
+        padding: 1rem 0 0;
+    }
+
+    .abtcont{
+        padding: 1rem;
+    }
+
+    .abtcont img{
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+    .abthead{
+        padding:0;
+    }
+
+    .abtcont .abthead h4{
+        text-align: center;
+    }
+    
+    .abtcont .abthead p{
+        text-align: justify;
+        font-size: 1rem;
+
+    }
+
+    .section-head{
+        padding-bottom: 0;
+        padding-top: 1rem;
+    }
+    .section-head h1{
+        font-size: 2rem;
+    }
+
+    #members{
+        padding: 1rem 0;
+    }
+
+    .membersimg{
+        margin: 0;
+        padding: 0;
+    }
+
+    .membersimg>div{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+
+    .blogtitle h1{
+        font-size: 1.75rem;
+    }
+
+    .blog h2{
+        font-size: 1.25rem;
+        margin-left: 0;
+    }
+
+    .blog p{
+        font-size: 0.9rem;
+        padding-bottom: 0;
+        margin-left: 0;
+    }
+
+
+
+    .footer{
+        padding: 1rem 0 0;
+    }
+
+    .footer .footer-logo{
+        border: none;
+    }
+
+    .footer .footer-links{
+        padding: 0 0 0 1rem;
+    }
+
+    .footer .footer-newsletters form input{
+        margin-top: 0.25rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        max-width: 80vw;
+        margin: auto;
+    }
+}
